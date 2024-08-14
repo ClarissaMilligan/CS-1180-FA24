@@ -23,6 +23,8 @@ These instruction apply generically to any OS.
    - Link to extension: https://marketplace.visualstudio.com/items?itemName=WrightStateUniversity-ComputerScience.wsu-cse
 4. Restart VSCode in order for extensions to take effect
 
+For more help with using Java in VSCode, look [here](https://code.visualstudio.com/docs/java/java-tutorial).
+
 ### Alternative JDK installation via VSCode
 
 This is recommended for Mac Users
