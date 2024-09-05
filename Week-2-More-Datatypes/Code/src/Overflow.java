@@ -7,7 +7,7 @@ public class Overflow
         int bigNumber = 2147483647;
         System.out.println(bigNumber);
 
-        // add 5 to that value
+        // add 5 to that value (you can also try multiplyng by 2
         bigNumber = bigNumber + 5;
         // the result that prints to the console will be negative
         // because of a Java property called overflow.
