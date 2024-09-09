@@ -4,6 +4,8 @@
   - Each day is a link to a challenge. Solutions are posted down the road
   - May only be available around Christmas time
 - [HackerRank - Java Focused Practice](https://www.hackerrank.com/domains/java)
+- [LeetCode - More small problems - Any Language](https://leetcode.com/problemset/?page=1)
+- [CodingBat - Short problems - Java/Python](https://codingbat.com/java)
 - [CodeChef - Practice Problems - Any Language](https://www.codechef.com/practice)
 - [Princeton - Programming Challenges](https://introcs.cs.princeton.edu/java/assignments/)
 - [Reddit - Daily Programmer](https://www.reddit.com/r/dailyprogrammer/)
