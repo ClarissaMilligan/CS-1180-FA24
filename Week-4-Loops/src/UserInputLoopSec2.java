@@ -17,8 +17,7 @@ public class UserInputLoopSec2
             // repeats what the user typed
             String userInput = scnr.next();
             System.out.println(userInput);
-
-
         }
+
     }
 }
