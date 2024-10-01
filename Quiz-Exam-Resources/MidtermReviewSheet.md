@@ -1,4 +1,5 @@
 # Midterm Review
+The midterm will be held on Wednesday, October 9 or Thursday, October 10, depending on the class section that you are in. Regardless, all students will receive 55 minutes to complete the exam. The exam will be a paper exam, so a writing utensil is required. The exam is individual and talking will not be tolerated. You are allowed one 3" x 5" notecard (both sides) as a cheat sheet. On the day of your exam, please wait outside the classroom as I will be seating you for the midterm.
 
 ## Intro Material
 These topics will be covered *implicitly*, meaning there won't be questions that directly focus on these concepts, but you will need to understand these concepts in order to understand other questions
