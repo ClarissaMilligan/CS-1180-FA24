@@ -7,7 +7,7 @@ These topics will be covered *implicitly*, meaning there won't be questions that
 Topics include:
 * datatypes
 * variables
-* arithmetic
+* arithmetic (including modulus)
 * console I/O
 * typecasting
 * overflow
