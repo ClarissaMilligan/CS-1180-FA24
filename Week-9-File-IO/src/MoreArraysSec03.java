@@ -61,5 +61,9 @@ public class MoreArraysSec03
 
         names.clear();
         System.out.println(names);
+
+        ArrayList<Integer> ghj = new ArrayList<>();
+        ghj.add(5);
+
     }
 }
