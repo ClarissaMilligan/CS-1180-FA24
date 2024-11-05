@@ -4,6 +4,7 @@ public class WrightStateStudent
     private int age = 0;
     private String UID = "";
     private double GPA = 0.0;
+    private boolean isAlumni = false;
 
     public WrightStateStudent()
     {
@@ -11,14 +12,16 @@ public class WrightStateStudent
         age = 18;
         UID = "U00000000";
         GPA = 0.0;
+        isAlumni = false;
     }
 
-    public WrightStateStudent(String name, int age, String UID, double GPA)
+    public WrightStateStudent(String name, int age, String UID, double GPA, boolean isAlumni)
     {
         this.name = name;
         setAge(age);
         this.UID = UID;
         setGPA(GPA);
+        this.isAlumni = isAlumni;
     }
 
     public void setGPA(double newGPA)
@@ -49,11 +52,28 @@ public class WrightStateStudent
         }
     }
 
+    public int getAge()
+    {
+        return age;
+    }
+
+
     public String getName()
     {
         return name;
     }
 
-
+    public boolean canGraduate()
+    {
+        if (GPA >= 2.5)
+        {
+            isAlumni = true;
+        }
+        else
+        {
+            isAlumni = false;
+        }
+        return isAlumni;
+    }
 
 }
