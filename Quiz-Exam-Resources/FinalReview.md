@@ -239,4 +239,170 @@
 * **Bandit: age 4**
 <br></br>
 
-## Whiteboard Problems (Writing Code Questions)
+## Writing Code Questions
+### if statements (logic)
+
+**QUESTION:**
+
+Write the if statements and logic for the following:
+A vault security system has several layers of security. In order to gain entry, a person must type in the correct `pin` (7), their fingerprint must match one in the system (`isValidFingerprint`), and their `name` must also be in the system (all valid names are stored in an ArrayList<String> called `names`). In this case, `access` will be granted. However, if the person does a retinal scan (`isValidRetina`) in addition to the previous checks, then they will be granted `specialAccess` as well.
+
+Input variables (can assume they will get values):
+```java
+int pin;
+boolean isValidFingerprint;
+String name;
+boolean isValidRetina;
+ArrayList<String> names = new ArrayList<>();
+```
+
+Output variables (you should assign):
+
+```java
+boolean access;
+boolean specialAccess;
+```
+
+**SOLUTION:**
+
+```java
+// given
+int pin;
+boolean isValidFingerprint;
+String name;
+boolean isValidRetina;
+ArrayList<String> names = new ArrayList<>();
+
+// need initialization
+boolean access = false;
+boolean specialAccess = false;
+
+// solution
+if ((pin == 7) && isValidFingerprint && (names.contains(name)))
+{
+    access = true;
+    if (isValidRetina)
+    {
+        specialAccess = true;
+    }
+}
+```
+
+
+### Loops
+
+**QUESTION:**
+
+Add a loop and logic to the following code, so that:
+* If the user types “up”, `value` is increased by one
+* If the user types “down”, `value` is decremented by one
+* If the user types “exit”, the loop is exited
+* If `value` is less than 0, exit
+* If `value` is greater than 5, exit
+* You don’t need to do any error checking
+Provided code:
+```java
+Scanner scnr = new Scanner(System.in);
+int value = 3;
+String userInput = “”;
+//[INSERT LOOP HERE]
+    userInput = scnr.next();
+```
+
+**SOLUTION:**
+
+```java
+// given
+Scanner scnr = new Scanner(System.in);
+int value = 3;
+String userInput = "";
+
+// solution
+while (!userInput.equals("exit") && value >= 0 && value <= 5)
+{
+    userInput = scnr.next();
+
+    if (userInput.equals("up"))
+    {
+        value++;
+    }
+    else if (userInput.equals("down"))
+    {
+        value--;
+    }
+}
+```
+
+
+### Methods
+
+**QUESTION:**
+
+* Write a method that takes in a number of students
+* Return the number of groups required to have an equal number of students in every group
+* There must be a minimum of three groups
+* Example input/output:
+  * IN: 9 students / OUT: 3 groups
+  * IN: 10 students / OUT: 5 groups
+  * IN: 13 students / OUT: 13 groups
+ 
+**SOLUTION:**
+
+```java
+public static int calcGroups(int numStudents)
+{
+    for (int i = 3; i <= numStudents; i++)
+    {
+        if ((numStudents % i) == 0)
+        {
+            return i;
+        }
+    }
+    return 0;
+}
+```
+
+**QUESTION:**
+
+* Write a method header for a method that returns the price of an item, given its name and id number
+* Make sure to use the most appropriate data types when possible
+
+**SOLUTION:**
+
+```java
+public static double getItemPrice(String name, int idNum)
+```
+
+### Arrays
+
+**QUESTION:**
+
+* Add a line to the following code so the for loop sums all of the values in the array
+* Add a line to calculate the average
+* Add a line to store the average in the last index of the array
+
+```java
+double[] gpas = {3.4, 2.7, 3.8, 4.0, 0.0};
+double sum = 0.0;
+double avg = 0.0;
+for(double gpa : gpas) {}
+```
+
+**SOLUTION:**
+
+```java
+// given
+double[] gpas = {3.4, 2.7, 3.8, 4.0, 0.0};
+double sum = 0.0;
+double avg = 0.0;
+for(double gpa : gpas)
+{
+    // solution
+    sum = sum + gpa;
+}
+// solution
+avg = sum / (gpas.length - 1);
+gpas[(gpas.length - 1)] = avg;
+```
+
+**QUESTION:**
