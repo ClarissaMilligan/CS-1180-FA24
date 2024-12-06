@@ -58,5 +58,182 @@
   * Polymorphism is the idea that a child class can be referred to by the type of any of its parent classes. For example, if a method took in the type 'Object', any object could be passed into that method because they all inherit from the Object class.
 
 ## mentimeter (Reading Code Questions)
+### if statements (logic)
+<ins>Question One</ins>
+
+<img src="pics/Q1.png" alt="Q1" width="500"/>
+
+* **false**
+<br></br>
+
+<ins>Question Two</ins>
+
+<img src="pics/Q2.png" alt="Q2" width="500"/>
+
+* **true**
+<br></br>
+
+<ins>Question Three</ins>
+
+<img src="pics/Q3.png" alt="Q3" width="500"/>
+
+* **inyes**
+<br></br>
+
+<ins>Question Four</ins>
+
+<img src="pics/Q4.png" alt="Q4" width="500"/>
+
+* **try again**
+<br></br>
+
+### Loops
+<ins>Question Five</ins>
+
+<img src="pics/Q5.png" alt="Q5" width="500"/>
+
+* **012**
+<br></br>
+
+<ins>Question Six</ins>
+
+<img src="pics/Q6.png" alt="Q6" width="500"/>
+
+* **43210**
+<br></br>
+
+<ins>Question Seven</ins>
+
+<img src="pics/Q7.png" alt="Q7" width="500"/>
+
+* **infinite loop**
+<br></br>
+
+<ins>Question Eight</ins>
+
+<img src="pics/Q8.png" alt="Q8" width="500"/>
+
+* **hoorah**
+<br></br>
+
+<ins>Question Nine</ins>
+
+<img src="pics/Q9.png" alt="Q9" width="500"/>
+
+* **loop00loop11loop22**
+<br></br>
+
+### Arrays & ArrayLists
+<ins>Question Ten</ins>
+
+<img src="pics/Q10.png" alt="Q10" width="500"/>
+
+* **nothing gets printed out**
+<br></br>
+
+<ins>Question Eleven</ins>
+
+<img src="pics/Q11.png" alt="Q11" width="500"/>
+
+* **1.02.07.04.0**
+<br></br>
+
+<ins>Question Twelve</ins>
+
+<img src="pics/Q12.png" alt="Q12" width="500"/>
+
+* **-5**
+<br></br>
+
+<ins>Question Thirteen</ins>
+
+<img src="pics/Q13.png" alt="Q13" width="500"/>
+
+* **Yay! you turned 30 years old, today!**
+<br></br>
+
+<ins>Question Fourteen</ins>
+
+<img src="pics/Q14.png" alt="Q14" width="500"/>
+
+* **27.08.0**
+<br></br>
+
+<ins>Question Fifteen</ins>
+
+<img src="pics/Q15.png" alt="Q15" width="500"/>
+
+* **watsup**
+<br></br>
+
+<ins>Question Sixteen</ins>
+
+<img src="pics/Q16.png" alt="Q16" width="500"/>
+
+* **[I@7b23ec81**
+<br></br>
+
+<ins>Question Seventeen</ins>
+
+<img src="pics/Q17.png" alt="Q17" width="500"/>
+
+* **[1, 0, 6, 4, 0]**
+<br></br>
+
+<ins>Question Eighteen</ins>
+
+<img src="pics/Q18.png" alt="Q18" width="500"/>
+
+* **truefalsetrue**
+<br></br>
+
+<ins>Question Nineteen</ins>
+
+<img src="pics/Q19.png" alt="Q19" width="500"/>
+
+* **error**
+<br></br>
+
+<ins>Question Twenty</ins>
+
+<img src="pics/Q20.png" alt="Q20" width="500"/>
+
+* **[birdie]**
+<br></br>
+
+<ins>Question Twenty-one</ins>
+
+<img src="pics/Q21.png" alt="Q21" width="500"/>
+
+* **0**
+<br></br>
+
+<ins>Question Twenty-two</ins>
+
+<img src="pics/Q22.png" alt="Q22" width="500"/>
+
+* **4**
+<br></br>
+
+<ins>Question Twenty-three</ins>
+
+<img src="pics/Q23.png" alt="Q23" width="500"/>
+
+* **error**
+<br></br>
+
+<ins>Question Twenty-four</ins>
+
+<img src="pics/Q24.png" alt="Q24" width="500"/>
+
+* **Pet@6acbcfc0**
+<br></br>
+
+<ins>Question Twenty-five</ins>
+
+<img src="pics/Q25.png" alt="Q25" width="500"/>
+
+* **Bandit: age 4**
+<br></br>
 
 ## Whiteboard Problems (Writing Code Questions)
