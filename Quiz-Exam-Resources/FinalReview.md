@@ -123,7 +123,6 @@
 * **loop00loop11loop22**
 <br></br>
 
-### Arrays & ArrayLists
 <ins>Question Ten</ins>
 
 <img src="pics/Q10.png" alt="Q10" width="500"/>
@@ -138,100 +137,104 @@
 * **1.02.07.04.0**
 <br></br>
 
+### Methods
 <ins>Question Twelve</ins>
 
-<img src="pics/Q12.png" alt="Q12" width="500"/>
+<img src="pics/Q12.PNG" alt="Q12" width="500"/>
 
 * **-5**
 <br></br>
 
 <ins>Question Thirteen</ins>
 
-<img src="pics/Q13.png" alt="Q13" width="500"/>
+<img src="pics/Q13.PNG" alt="Q13" width="500"/>
 
 * **Yay! you turned 30 years old, today!**
 <br></br>
 
 <ins>Question Fourteen</ins>
 
-<img src="pics/Q14.png" alt="Q14" width="500"/>
+<img src="pics/Q14.PNG" alt="Q14" width="500"/>
 
 * **27.08.0**
 <br></br>
 
+### File I/O
 <ins>Question Fifteen</ins>
 
-<img src="pics/Q15.png" alt="Q15" width="500"/>
+<img src="pics/Q15.PNG" alt="Q15" width="500"/>
 
 * **watsup**
 <br></br>
 
+### Arrays & ArrayLists
 <ins>Question Sixteen</ins>
 
-<img src="pics/Q16.png" alt="Q16" width="500"/>
+<img src="pics/Q16.PNG" alt="Q16" width="500"/>
 
 * **[I@7b23ec81**
 <br></br>
 
 <ins>Question Seventeen</ins>
 
-<img src="pics/Q17.png" alt="Q17" width="500"/>
+<img src="pics/Q17.PNG" alt="Q17" width="500"/>
 
 * **[1, 0, 6, 4, 0]**
 <br></br>
 
 <ins>Question Eighteen</ins>
 
-<img src="pics/Q18.png" alt="Q18" width="500"/>
+<img src="pics/Q18.PNG" alt="Q18" width="500"/>
 
 * **truefalsetrue**
 <br></br>
 
 <ins>Question Nineteen</ins>
 
-<img src="pics/Q19.png" alt="Q19" width="500"/>
+<img src="pics/Q19.PNG" alt="Q19" width="500"/>
 
 * **error**
 <br></br>
 
 <ins>Question Twenty</ins>
 
-<img src="pics/Q20.png" alt="Q20" width="500"/>
+<img src="pics/Q20.PNG" alt="Q20" width="500"/>
 
 * **[birdie]**
 <br></br>
 
+### Classes & Objects
 <ins>Question Twenty-one</ins>
 
-<img src="pics/Q21.png" alt="Q21" width="500"/>
+<img src="pics/Q21.PNG" alt="Q21" width="500"/>
 
 * **0**
 <br></br>
 
 <ins>Question Twenty-two</ins>
 
-<img src="pics/Q22.png" alt="Q22" width="500"/>
+<img src="pics/Q22.PNG" alt="Q22" width="500"/>
 
 * **4**
 <br></br>
 
 <ins>Question Twenty-three</ins>
 
-<img src="pics/Q23.png" alt="Q23" width="500"/>
+<img src="pics/Q23.PNG" alt="Q23" width="500"/>
 
 * **error**
 <br></br>
 
 <ins>Question Twenty-four</ins>
 
-<img src="pics/Q24.png" alt="Q24" width="500"/>
+<img src="pics/Q24.PNG" alt="Q24" width="500"/>
 
 * **Pet@6acbcfc0**
 <br></br>
 
 <ins>Question Twenty-five</ins>
 
-<img src="pics/Q25.png" alt="Q25" width="500"/>
+<img src="pics/Q25.PNG" alt="Q25" width="500"/>
 
 * **Bandit: age 4**
 <br></br>
