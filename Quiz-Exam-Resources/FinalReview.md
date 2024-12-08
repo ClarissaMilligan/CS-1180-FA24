@@ -405,4 +405,76 @@ avg = sum / (gpas.length - 1);
 gpas[(gpas.length - 1)] = avg;
 ```
 
+### Classes & Objects
+
 **QUESTION:**
+
+* Create an object for a class called CellPhone
+* Utilize a constructor that has the following parameters in the order described:
+  1. An integer for the phone number (no area code)
+  2. A boolean to indicate whether or not the phone is a smart phone
+  3. A String to hold the brand of the phone
+ 
+ **SOLUTION:**
+
+ ```java
+CellPhone c1 = new CellPhone(8675309, true, "Samsung");
+
+// also acceptable
+
+int phoneNum = 8675309;
+boolean isSmart = true;
+String brand = "Samsung";
+
+CellPhone c2 = new CellPhone(phoneNum, isSmart, brand);
+```
+
+**QUESTION:**
+
+* Fill in the code for both constructors to initialize the variables for the following class
+* The no-arg constructor should initialize the variables to a starting value
+* The 3-arg constructor should assign initialize the variables to the parameter values
+
+```java
+public class Part
+{
+    private int partNo;
+    private double weight;
+    private String material;
+    
+    public Part()
+    {
+        
+    }
+    
+    public Part(int partNo, double partWeight, String partMaterial)
+    {
+        
+    }
+}
+```
+
+**SOLUTION:**
+
+```java
+public class Part
+{
+    private int partNo;
+    private double weight;
+    private String material;
+    
+    public Part()
+    {
+        partNo = 0;
+        weight = 0.0;
+        material = "";
+    }
+
+    public Part(int partNo, double partWeight, String partMaterial)
+    {
+        this.partNo = partNo; // this keyword required due to names being the same
+        weight = partWeight; // different names do not require the this keyword
+        setMaterial(partMaterial); // assumes that a set method has been defined
+    }
+}
+```
